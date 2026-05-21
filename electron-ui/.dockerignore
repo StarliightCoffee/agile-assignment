@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-electron
+.vite
+.git
+.gitignore
+*.log
+.env*

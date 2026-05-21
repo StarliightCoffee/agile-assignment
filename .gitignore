@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
 parts/
 sdist/
@@ -206,4 +206,16 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Add JavaScript VIte + React = electron .gitignore exclude here.
+# assume electron-ui/ is the root of the JavaScript part of this project
+electron-ui/node_modules/
+electron-ui/dist/
+electron-ui/build/
+electron-ui/.env
+electron-ui/.env.local
+electron-ui/.env.development
+electron-ui/.env.test
+electron-ui/.env.production
+electron-ui/release/
+electron-ui/dist-electron/
 *.db

@@ -1,0 +1,21 @@
+# Database
+## User table
+- User email
+- Full Name
+- Password
+- User type (Existing user, new user, admin) (enum type)
+- Phone Number
+- Membership status (Standard, Pro, Pro+, No Membership) (enum)
+
+## Parking
+- Foreign key to user
+- License plate
+- Start Timestamp
+- End Timestamp
+- Payment (boolean)
+
+## schedule
+- foreign key to user (member) (CONSTRAINT TO ONLY MEMBER)
+- Date & Time
+- Foreign key to user (trainer) (CONSTRAINT TO ONLY TRAINER)
+(Do a fancy SQL command that will aggregate specific trainer's schedule.)

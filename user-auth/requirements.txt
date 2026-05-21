@@ -1,0 +1,4 @@
+Flask
+requests
+os
+hashlib
